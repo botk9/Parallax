@@ -36,11 +36,16 @@ footer{
     color: white;
     text-align: center;
 }
-.container{
-    margin-bottom: 1%;
-    border-radius: 5%;
-    background-color: black;
+
+/* BLOCO DE CADASTRO*/
+.container{ 
+    padding: 30px; /* bloco interno, espaçamento pra dar mais espaço pra respirar */
+    border-radius: 30px; /* borda bem arredondada, no limite, nao arredondar mais */
+    background-color: black; /* cor insatisfatoria, blocos pretos e letras brancas sao agressivas */
+    font-size: small; /* PRECISA MELHORAR // ACESSIBILIDADE // os clientes devem conseguir ler */
+    margin: 40px; /* espaço do lado externo, precisa ser grande para dar foco ao cadastro */
 }
+
 img{
     border-radius: 5%;
 }
