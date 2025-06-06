@@ -1,0 +1,24 @@
+body{
+    display: flex;/*ocupar espaço disponivel*/
+    flex-direction: column;/*por padrao é linha*/
+    min-height: 100vh;/*vh = viewport height*/
+    width: 100vw;/*vw = viewport width*/
+    margin: 0 auto;/*centraliza horizontalmente*/
+    text-align: center;
+    background-image: url(img/tijolos\ bruto\ roxo_2.avif);
+    justify-content: center;
+}
+.conclusao h1{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-style: normal;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+.conclusao h3{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-style: normal;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}

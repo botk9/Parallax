@@ -1,0 +1,108 @@
+*{
+    margin: 0;/*reseta estilos donnavegador*/
+    padding: 0;/*reseta estilos donnavegador*/
+    box-sizing: border-box;/*significa que a largura a altura incluem padding e border*/
+}
+body{
+    display: flex;/*ocupar espaço disponivel*/
+    flex-direction: column;/*por padrao é linha*/
+    min-height: 100vh;/*vh = viewport height*/
+    margin: 0 auto;/*centraliza horizontalmente*/
+    text-align: center;
+    background-image: url(img/tijolos\ bruto\ roxo_2.avif);
+}
+header{
+    background-color: #6d2c9e;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+}
+header h1{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-style: normal;
+    font-size: 7em;
+}
+header h3{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-style: normal;
+}
+.nav-link{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-style: normal;
+    font-size: 135%;
+}
+footer{
+    background-color: #360f53;
+    color: white;
+    text-align: center;
+}
+.container{
+    margin-bottom: 1%;
+    border-radius: 5%;
+    background-color: black;
+}
+img{
+    border-radius: 5%;
+}
+.titulo h1{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-style: normal;
+    font-size: 7em;
+    color: white;
+    text-align: center;
+}
+.paris{
+    display: flex;
+    background-color: rgba(105, 105, 105, 0.8); /* 0.7 = 70% de opacidade */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius:4cap;
+}
+.picchu{
+    display: flex;
+    background-color: rgba(105, 105, 105, 0.8); /* 0.7 = 70% de opacidade */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius:4cap;
+}
+.istambul{
+    display: flex;
+    background-color: rgba(105, 105, 105, 0.8); /* 0.7 = 70% de opacidade */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius:4cap;
+}
+.hogwarts{
+    display: flex;
+    background-color: rgba(105, 105, 105, 0.8); /* 0.7 = 70% de opacidade */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius:4cap;
+}
+.halfblood{
+    display: flex;
+    background-color: rgba(105, 105, 105, 0.8); /* 0.7 = 70% de opacidade */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius:4cap;
+}
+.konoha{
+    display: flex;
+    background-color: rgba(105, 105, 105, 0.8); /* 0.7 = 70% de opacidade */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius:4cap;
+}
+.itens{
+    display: flex;
+}
+.fotos{
+    text-align:left ;
+    margin-left: 3%;
+}
+.texto{
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 2%;
+}
